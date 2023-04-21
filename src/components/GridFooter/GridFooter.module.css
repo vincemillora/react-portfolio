@@ -1,0 +1,32 @@
+
+.link a {
+  padding: 0 10px;
+}
+.link li + li::before {
+  content: " ・ ";
+}
+.link ul li a {
+  text-decoration: none;
+}
+.link ul {
+  margin: auto;
+  text-align: center;
+  padding-inline-start: 0px;
+}
+.link ul li {
+  display: inline;
+  border-right: none;
+  font-weight: bold;
+}
+
+
+@media screen and (min-width: 550px) {
+  .text-size {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .text-size {
+    font-size: 0.80rem;
+  }
+}

@@ -1,0 +1,19 @@
+.mainContainer {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconImage {
+  margin: auto;
+}
+
+.title {
+  letter-spacing: -0.015625em;
+  font-weight: 900 !important;
+  font-size: 3.5rem;
+  position: relative;
+  color: #d03050;
+}
